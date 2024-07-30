@@ -23,7 +23,7 @@ const greeting = {
   username: "Ahmad Hassan",
   title: "Hi all, I'm Ahmad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with one year of hands-on experience in building comprehensive web applications using the MERN stack, Next.js, and other cool libraries and frameworks."
   ),
   resumeLink:
     "/", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/DrFidget",
+  linkedin: "https://www.linkedin.com/in/ahmadhassan-drfidget/",
+  gmail: "ahmadhassan0381@gmail.com",
+  // gitlab: "/",
+  // facebook: "/",
+  // medium: "/",
+  // stackoverflow: "/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -88,10 +88,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -112,10 +112,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,24 +126,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Central Punjab",
+      logo: require("./assets/images/ucp.png"),
+      subHeader: "Bachelor of Science in Computer Science (BSCS)",
+      duration: "October 2020 - July 2024",
+      desc: "Graduated with a CGPA of 3.8, demonstrating strong academic performance and dedication to the field of computer science.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a robust understanding of software development, algorithms, and data structures.",
+        "Completed multiple projects involving full-stack development, enhancing practical skills and problem-solving abilities."
       ]
     },
+    
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Punjab College Lahore",
+      logo: require("./assets/images/pgc.png"),
+      subHeader: "Intermediate in Computer Science",
+      duration: "July 2018 - July 2020",
+      desc: "Gained foundational knowledge in computer science and programming, laying the groundwork for advanced studies and practical applications.",
+      descBullets: [
+        "Developed a basic understanding of computer science principles and programming concepts.",
+        "Acquired skills in problem-solving and logical thinking through coursework and practical assignments."
+      ]
     }
+    
   ]
 };
 
@@ -154,15 +159,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,31 +179,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "Powersoft19",
+      companylogo: require("./assets/images/ps19.png"),
+      date: "December 2023 – Present",
+      desc: "Contributed to various projects, improving data management and user experience.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Enhanced the company's PMS portal by developing a session summary component, saving significant report generation time",
+        "Implemented Singleton and Factory design patterns to optimize code scalability and maintainability",
+        "Collaborated with team members to refactor legacy code, resulting in a 50% reduction in bug reports"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Developer Intern",
+      company: "BehinDev",
+      companylogo: require("./assets/images/bdev.png"),
+      date: "September 2023 – October 2023",
+      desc: "Worked on web development projects, focusing on front-end technologies.",
+      descBullets: [
+        "Developed and integrated new features using the MVC framework, significantly increasing application performance",
+        "Created a dynamic form view generator, improving form creation speed by 70%",
+        "Enhanced user experience by implementing interactive React.js components"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Front-End Intern",
+      company: "CodSoft",
+      companylogo: require("./assets/images/csoft.png"),
+      date: "September 2023 – October 2023",
+      desc: "Focused on front-end development, creating responsive applications.",
+      descBullets: [
+        "Enhanced user experience by developing responsive front-end apps using Next.js",
+        "Implemented interactive React.js components to improve user engagement",
+        "Developed a tailored dynamic form application, reducing development time"
+      ]
     }
   ]
+  
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -239,7 +256,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +317,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +341,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +360,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +373,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,8 +389,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3098809323",
+  email_address: "ahmadhassan0381@gmail.com"
 };
 
 // Twitter Section
