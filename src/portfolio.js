@@ -245,7 +245,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/pdfinsight.png"),
       projectName: "PDF-Insight",
       projectDesc: "Chat with you PDF",
       footerLink: [
